@@ -1,0 +1,95 @@
+
+
+
+
+
+/* whetherApp */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+}
+
+.day {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.night {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.container {
+    background: linear-gradient(to bottom, #1e90ff, #2ecc71);
+    padding: 25px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background: #0b5ed7;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.icon img {
+    width: 90px;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.details {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.details div {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 33%;
+    font-size: 14px;
+}
